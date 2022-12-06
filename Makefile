@@ -377,7 +377,10 @@ LD		= $(CROSS_COMPILE)ld
 LDGOLD		= $(CROSS_COMPILE)ld.gold
 # CC              = $(srctree)/toolchain/clang/host/linux-x86/clang-r383902-jopp/bin/clang
 
-CC=/home/grahame/toolchains/jopp/samsung-exynos9820-toolchain-default/clang/host/linux-x86/clang-4639204-cfp-jopp/bin/clang
+# CC=/home/grahame/toolchains/jopp/samsung-exynos9820-toolchain-default/clang/host/linux-x86/clang-4639204-cfp-jopp/bin/clang
+
+CC=/home/physwizz/toolchains/prebuilts_clang_host_linux-x86_clang-r383902-jopp-11/bin/clang
+
 
 CPP		= $(CC) -E
 AR		= $(CROSS_COMPILE)ar
